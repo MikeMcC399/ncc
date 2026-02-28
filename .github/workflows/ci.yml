@@ -25,6 +25,7 @@ jobs:
           - 20
           - 22
           - 24
+          - 25
     runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v5
